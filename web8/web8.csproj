@@ -114,6 +114,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="css\animate.css" />
+    <Content Include="css\animate2.min.css" />
     <Content Include="css\animated-slider.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap3.min.css" />
@@ -127,6 +128,7 @@
     <Content Include="css\responsive.css" />
     <Content Include="css\slick.min.css" />
     <Content Include="css\versions.css" />
+    <Content Include="fonts\cssfont.css" />
     <Content Include="fonts\Flaticon.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -239,6 +241,7 @@
     <Content Include="uploads\gallery_img-04.jpg" />
     <Content Include="uploads\gallery_img-05.jpg" />
     <Content Include="uploads\gallery_img-06.jpg" />
+    <Content Include="uploads\indexpageback.jpg" />
     <Content Include="uploads\reactjs2.jpg" />
     <Content Include="uploads\testi_01.png" />
     <Content Include="uploads\testi_02.png" />

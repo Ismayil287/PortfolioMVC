@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="~/css/responsive.css">
     <link rel="stylesheet" href="~/css/custom.css">
     <script src="~/js/modernizr.js"></script>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="~/js/html5shiv.js"></script>
+    <script src="~/js/respond.min.js"></script>
     <meta name="viewport" content="width=device-width" />
     <title>New OR Update</title>
     <link href="~/RegistrationStyle.css" rel="stylesheet" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="~/fonts/cssfont.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/animate2.min.css">
 
 </head>
 <body>
@@ -45,7 +45,7 @@
                     </div>
                 </fieldset>
                 @Html.HiddenFor(m => m.ID)
-                <button type="submit" id="login-form-submit" class="login_form button animated fadeInUp animate4">Update</button>
+                <button type="submit" id="login-form-submit" class="login_form button animated fadeInUp animate4">Submit</button>
             </form>
         </div>
     }
