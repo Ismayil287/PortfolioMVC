@@ -1,0 +1,35 @@
+﻿@using web8.Models.Entity
+@model List<crudMVC>
+@{
+    ViewBag.Title = "ToDoList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ToDoList</h2>
+<a href="/Home/Create" class="btn btn-danger"> Create New</a>
+<table class="table table-bordered table-dark table-hover border-primary">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ProjectName</th>
+            <th>Owner</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr b-scope="people" b-loop="person in people" b-paginate="5">
+                <td>@item.ID</td>
+                <td>@item.ProjectName</td>
+                <td>@item.Owner</td>
+
+                <td><a class="btn btn-primary" href="/Home/Update/@item.ID">Update</a></td>
+                <td><a class="btn btn-warning" href="/Home/Delete/@item.ID">Delete</a></td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/bootstrap3.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+</head>
+<body >
+    @Html.Partial("_Header")
+    <div style="margin-top: 68px;">
+        @RenderBody()
+    </div>
+    @Html.Partial("_Footer")
+<script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
