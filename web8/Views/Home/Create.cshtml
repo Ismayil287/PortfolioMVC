@@ -34,18 +34,21 @@
         <div class="panel shadow1">
             <form action="/Home/Create" method="post" class="login-form">
                 <h1 class="animated fadeInUp animate1" id="title-login">Add New Project or Update Existing One</h1>
-                <fieldset id="login-fieldset">
+                <fieldset id="login-fieldset" class="smth">
                     <div class="login animated fadeInUp animate2">
                         @Html.LabelFor(m => m.ProjectName)
                         @Html.TextBoxFor(m => m.ProjectName, new { @class = "" })
                     </div>
-                    <div class="login animated fadeInUp animate3">
-                        @Html.LabelFor(m => m.Owner)
+                    <div class="login animated fadeInUp animate2">
+                        <div>
+                            @Html.LabelFor(m => m.Owner)
+                        </div>
                         @Html.TextBoxFor(m => m.Owner, new { @class = "" })
+                        <button type="submit" id="login-form-submit" class="login_form button animated fadeInUp animate4">Submit</button>
                     </div>
                 </fieldset>
                 @Html.HiddenFor(m => m.ID)
-                <button type="submit" id="login-form-submit" class="login_form button animated fadeInUp animate4">Submit</button>
+               
             </form>
         </div>
     }

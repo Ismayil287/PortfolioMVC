@@ -7,10 +7,18 @@ html {
     width: 100%;
     height: 100vh;
 }
-
+.row{
+    background-image: url(/uploads/indexpageback.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+.smth{
+    height: 70vh;
+}
 body {
     background: #e5e5e5;
     width: 100%;
+    height: 50%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -19,8 +27,8 @@ body {
 
 .panel {
     width: 450px;
-    max-width: 90%;
-    height: 500px;
+    max-width: 70%;
+    height: 450px;
     background: url('https://picsum.photos/1000/1500?image=827') #fff;
     background-repeat: no-repeat;
     background-position: top center;
@@ -136,7 +144,7 @@ fieldset input {
 
 
     fieldset input:focus {
-        outline:;
+        outline: none;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 5em;
         margin: 9px 0;
@@ -147,7 +155,7 @@ fieldset input {
     bottom: 0;
     width: 70%;
     height: 4em;
-    margin-top: 150px;
+    margin-top: 50px;
     border: none;
     border-radius: 10em;
     background: #f03699;
